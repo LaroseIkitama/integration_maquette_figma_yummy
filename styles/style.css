@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F3F3F3;
+}
+
+/* header */
+
+header {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+header img {
+    width: 72px;
+    height: 72px;
+}
+
+header nav {
+    display: flex;
+    padding: 20px;
+}
+
+header nav a {
+    margin-left: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* hero header */
+
+.section-hero-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.section-hero-header div {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-hero-header h1 {
+    text-transform: uppercase;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.section-hero-header span {
+    color: #D2483D;
+}
+
+.section-hero-header p {
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.section-hero-header a {
+    width: 216px;
+    height: 56px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section-hero-header img {
+    width: 304px;
+    height: 304px;
+}
+
+/* nos adresses */
+.section-nos-adresses {
+    margin-bottom: 100px;
+}
+
+.section-nos-adresses h2 {
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline 4px solid #D2483D;
+    margin-bottom: 50px;
+}
+
+.section-nos-adresses .images {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section-nos-adresses h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.section-nos-adresses p {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+/* commandez maintenant */
+.section-commandez-maintenant {
+    height: 216px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #D2483D;
+    margin-bottom: 100px;
+}
+
+.section-commandez-maintenant h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.section-commandez-maintenant a {
+    width: 216px;
+    height: 56px;
+    padding: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+/* notre savoir-faire */
+.section-notre-savoir-faire {
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+.section-notre-savoir-faire h2 {
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline 4px solid #D2483D;
+    margin-bottom: 50px;
+}
+
+.section-notre-savoir-faire p {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+/* section-reseaux-sociaux */
+
+.section-reseaux-sociaux {
+    margin-bottom: 100px;
+}
+
+.section-reseaux-sociaux h2 {
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline 4px solid #D2483D;
+    margin-bottom: 50px;
+}
+
+.section-reseaux-sociaux .images_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section-reseaux-sociaux .images>:first-child {
+    margin-bottom: 50px;
+}
+
+/* contactez-nous */
+
+.section-contact {
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+.section-contact h2 {
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline 4px solid #D2483D;
+    margin-bottom: 50px;
+}
+.section-contact p {
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.section-contact p a{
+   color: #000000;
+   text-decoration: none;
+   font-weight: bolder;
+}
+
+/* footer */
+
+.footer{
+    background: #000000;
+}
+.footer>:first-child{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer img{
+    margin: 20px;
+}

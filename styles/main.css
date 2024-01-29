@@ -1,0 +1,99 @@
+/* design system */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap');
+
+/* modules */
+@import 'modules/appBar.css';
+@import 'modules/cta.css';
+@import 'modules/redBanner.css';
+@import 'modules/contactInfo.css';
+@import 'modules/footer.css';
+
+/* pages */
+@import 'pages/home.css';
+@import 'pages/menu.css';
+@import 'pages/contact.css';
+
+:root {
+    /* colors */
+    --red-highlight: #D2483D;
+    --light-grey: #F3F3F3;
+    --white: #FFFFFF;
+    --black: #000000;
+
+    /* text configuration */
+
+    --body-font: 'Montserrat';
+    --body-highlight-font: 'Montserrat';
+    --body-font-weight: 400;
+    --body-highlight-font-weight: 600;
+    --body-font-size: 1.25rem;
+    --body-highlight-font-size: 1.25rem;
+    --body-line-height: 1.5rem;
+    --body-highlight-line-height: 1.5rem;
+
+    --title-font: 'Bebas Neue';
+    --title-font-weight: 400;
+    --title-font-size: 1.5rem;
+    --title-line-height: 1.75rem;
+
+    --header-font: 'Bebas Neue';
+    --header-font-weight: 400;
+    --header-font-size: 4.5rem;
+    --header-line-height: 5.375rem;
+
+
+
+
+}
+
+
+body {
+    background-color: var(--light-grey);
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: var(--body-font-weight);
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
+    color: var(--black);
+}
+
+h1 {
+    font-family: var(--header-font);
+    font-size: var(--header-font-size);
+    font-style: normal;
+    font-weight: var(--header-font-weight);
+    line-height: var(--header-line-height);
+    text-transform: uppercase;
+}
+
+h2 {
+
+    font-family: var(--title-font);
+    font-size: var(--title-font-size);
+    font-style: normal;
+    font-weight: var(--title-font-weight);
+    line-height: var(--title-line-height);
+    text-decoration: underline var(--red-highlight);
+    text-underline-offset: 0.25rem;
+    text-decoration-thickness: 0.188rem;
+    text-transform: uppercase;
+}
+
+/* media query */
+
+@media (max-width:768px) {
+
+    :root {
+        /* mobiles variables */
+        --body-font-size: 1rem;
+        --body-highlight-font-size: 1rem;
+        --header-font-size: 2.5rem;
+        --title-font-size: 1.25rem;
+
+        --body-line-height: 1.25rem;
+        --body-highlight-line-height: 1.25rem;
+        --header-line-height: 3rem;
+        --title-line-height: 1.5rem;
+
+    }
+}
