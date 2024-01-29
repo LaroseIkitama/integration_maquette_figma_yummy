@@ -13,7 +13,7 @@ cd integration_maquette_figma_yummy
 
 ## Démo
 
-- [@liens vers la page web](https://laroseikitama.github.io/integration_maquette_figma_twitter/index.html)
+- [@liens vers la page web](https://laroseikitama.github.io/integration_maquette_figma_yummy/)
 
 ## Captures d'écran
 
